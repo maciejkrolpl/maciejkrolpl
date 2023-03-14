@@ -1,7 +1,2 @@
-👋 Hi, I’m Maciej Król
-
-:poland: I’m from Poland
-
-☁ I work as Salesforce Developer 
-
-⚛ I want to master React
+👋 Hi, I’m Maciej Król. I'm from Poland and I work as Salesforce developer.
+I'm a coding enthusiast and self-taught man.
