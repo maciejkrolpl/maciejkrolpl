@@ -11,7 +11,8 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "prettier:write": "prettier --write ."
+    "prettier:write": "prettier --write .",
+    "prettier:check": "prettier --check ."
   },
   "dependencies": {
     "react": "^18.2.0",
