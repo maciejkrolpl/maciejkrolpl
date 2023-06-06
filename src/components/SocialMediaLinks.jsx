@@ -18,16 +18,16 @@ const SocialMediaLinks = () => {
   const components = [
     {
       componentName: GitHubLogo,
-      url: 'https://github.com/maciejkrolpl/'
+      url: 'https://github.com/maciejkrolpl/',
     },
     {
       componentName: LinkedInLogo,
-      url: 'https://www.linkedin.com/in/maciejkrolpl/'
+      url: 'https://www.linkedin.com/in/maciejkrolpl/',
     },
     {
       componentName: SalesforceLogo,
-      url: 'https://trailblazer.me/id/mkro'
-    }
+      url: 'https://trailblazer.me/id/mkro',
+    },
   ];
 
   return (

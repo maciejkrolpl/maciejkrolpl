@@ -2,7 +2,13 @@ import React from 'react';
 import './SocialMediaLink.css';
 
 const SocialMediaLink = (props) => {
-  const { componentName: TagName, url, onMouseDown, onMouseMove, onMouseUp } = props;
+  const {
+    componentName: TagName,
+    url,
+    onMouseDown,
+    onMouseMove,
+    onMouseUp,
+  } = props;
   return (
     <a
       href={url}
@@ -11,7 +17,8 @@ const SocialMediaLink = (props) => {
       onMouseDown={onMouseDown}
       onMouseMove={onMouseMove}
       onMouseUp={onMouseUp}
-      rel="noreferrer">
+      rel="noreferrer"
+    >
       <TagName />
     </a>
   );
