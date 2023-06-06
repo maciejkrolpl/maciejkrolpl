@@ -39,6 +39,11 @@ jobs:
         run: npm ci
       - name: Format code
         run: npm run prettier:write
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Apply formatting changes
+          branch: ${{ github.head_ref }}
       - name: Build
         run: npm run build
       - name: Setup Pages
