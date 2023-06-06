@@ -1,3 +1,4 @@
+import React from 'react';
 import DisplayName from './components/DisplayName';
 import SelfPhoto from './components/SelfPhoto';
 import SocialMediaLinks from './components/SocialMediaLinks';
