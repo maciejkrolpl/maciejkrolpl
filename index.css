@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+.wholesome {
+  background: linear-gradient(45deg, rgba(0, 146, 218, 1) 0%, rgb(1, 64, 111) 80%);
+  width: 100vw;
+  height: 100vh;
+}
+
+.content {
+  position: absolute;
+  right: 16rem;
+  top: 10vw;
+}
+
+
+@media screen and (max-width: 768px) {
+  .content {
+    right: 1rem;
+    left: 1rem;
+  }
+}
+
+.myname {
+  font-size: 8vw;
+  font-weight: 900;
+  color: transparent;
+  text-transform: uppercase;
+  -webkit-text-stroke: 0.1px rgb(156, 206, 231);
+  animation-name: namecolor;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+}
+
+@keyframes namecolor {
+  0%,
+  10%,
+  20% {
+    -webkit-text-stroke-color: white;
+  }
+
+  5%,
+  15%,
+  25% {
+    -webkit-text-stroke-color: rgb(156, 206, 231);
+  }
+}
+
+.title {
+  text-align: right;
+  color: rgb(156, 206, 231);
+  font-size: 1.4em;
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .myname {
+    text-align: center;
+    font-size: 3rem;
+  }
+}
+
+.resume {
+  margin-top: 1em;
+  text-align: right;
+  color: white;
+  font-size: 1.3em;
+}
+
+.resume p {
+  line-height: 2;
+}
+
+.selfie {
+  height: auto;
+  animation-name: photoappear;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  width: 100%;
+}
+
+@keyframes photoappear {
+  0% {
+    opacity: 00%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+.selfie-sticked {
+  position: fixed;
+  bottom: -155px;
+  left: -100px;
+  width: 45%;
+}
+
+@media only screen and (max-width: 768px) {
+  .selfie-sticked {
+    width: 120%;
+  }
+}
+
+.social-medial-link {
+  display: inline-block;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.clicked {
+  top: 3px;
+  left: 3px;
+}
+
+.social-media-link svg {
+  fill: white;
+  height: 48px;
+  width: auto;
+  margin: 2em 1em;
+  transition: fill 0.5s ease;
+}
+
+.social-media-link svg:hover {
+  fill: black;
+}
+
+.social-media {
+  text-align: center;
+}
+
